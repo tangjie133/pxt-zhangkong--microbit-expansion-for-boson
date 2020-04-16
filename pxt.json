@@ -1,5 +1,6 @@
 {
     "name": "zhangkong & microbit expansion for Boson",
+    "version": "0.0.1",
     "description": "",
     "dependencies": {
         "core": "*",
