@@ -7,7 +7,6 @@
         "radio": "*"
     },
     "files": [
-        "main.ts",
         "README.md",
         "boson.ts"
     ],
