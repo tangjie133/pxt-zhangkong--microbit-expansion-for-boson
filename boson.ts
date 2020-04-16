@@ -1,7 +1,7 @@
 
 
-//% weight=10 color=#DF6721 icon="\uf013" block="micro:IOBOX"
-namespace microIOBOX {
+//% weight=10 color=#DF6721 icon="\uf013" block="micro:Boson"
+namespace microboson {
     const address = 0x10
 
     /**
