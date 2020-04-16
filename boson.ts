@@ -1,9 +1,8 @@
 
 
 //% weight=10 color=#DF6721 icon="\uf013" block="micro:Boson"
-namespace microboson {
+namespace microBoson {
     const address = 0x10
-
     /**
      * The user selects the 4-way dc motor.
      */
@@ -11,7 +10,6 @@ namespace microboson {
         M1 = 0x00,
         M2 = 0x01
     }
-
     /**
      * The user defines the motor rotation direction.
      */
@@ -21,7 +19,6 @@ namespace microboson {
         //% blockId="CCW" block="CCW"
         CCW = 0x01
     }
-
     /**
 	 * Execute a motor
      * M1~M2.
@@ -50,7 +47,6 @@ namespace microboson {
         buf[2] = speed;
         pins.i2cWriteBuffer(address, buf);
     }
-
     /**
 	 * Stop the dc motor.
     */
@@ -75,7 +71,6 @@ namespace microboson {
         buf[2] = 0;
         pins.i2cWriteBuffer(address, buf);
     }
-
     /**
 	 * Stop all motors
     */
